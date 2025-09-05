@@ -7,10 +7,10 @@
 		"nodewriter"
 	],
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://h2o.ai",
 	"author": {
-		"name": "Ivan Isaev",
-		"email": "ivan.dev@gmail.com"
+		"name": "H2O.ai",
+		"email": "support@h2o.ai"
 	},
 	"repository": {
 		"type": "git",
