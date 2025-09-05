@@ -1,4 +1,4 @@
-import { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentialTestRequest, Icon } from 'n8n-workflow';
+import { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentialTestRequest } from 'n8n-workflow';
 export class h2oGPTeApi implements ICredentialType {
 	name = 'h2oGPTeApi';
 	displayName = 'h2oGPTe API';
