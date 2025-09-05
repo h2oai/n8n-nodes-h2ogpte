@@ -1,7 +1,8 @@
-import { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentialTestRequest } from 'n8n-workflow';
+import { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentialTestRequest, Icon } from 'n8n-workflow';
 export class h2oGPTeApi implements ICredentialType {
 	name = 'h2oGPTeApi';
 	displayName = 'h2oGPTe API';
+	icon = { light: 'file:h2ogpte.svg', dark: 'file:h2ogpte.svg' } as const;
 	documentationUrl = 'https://h2oai.github.io/h2ogpte/index.html';
 	properties: INodeProperties[] = [
 		{
