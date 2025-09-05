@@ -4,7 +4,7 @@ export class H2oGpTe implements INodeType {
 		displayName: 'h2oGPTe',
 		name: 'h2oGpTe',
 		description:
-			'# Overview   Users can easily interact with the h2oGPTe API through its REST API, allowing HTTP requests from any progra...',
+			'h2oGPTe is an AI-powered search assistant for your internal teams to answer questions gleaned from large volumes of documents, websites and workplace content.',
 		version: 1,
 		group: ['transform'],
 		subtitle: '={{ $parameter["operation"] }}',

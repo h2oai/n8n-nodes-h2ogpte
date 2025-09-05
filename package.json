@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-h2ogpte",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "An n8n node to interact with H2O GPT Enterprise.",
 	"keywords": [
 		"n8n-community-node-package",
@@ -34,10 +34,10 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
-			"dist/credentials/h2oGPTe.credentials.js"
+			"dist/credentials/h2oGPTeApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/h2oGPTe/h2oGPTe.node.js"
+			"dist/nodes/h2oGPTe/H2oGpTe.node.js"
 		]
 	},
 	"devDependencies": {
