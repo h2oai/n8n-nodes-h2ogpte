@@ -1,4 +1,4 @@
-import { ICredentialType, INodeProperties, IAuthenticateGeneric } from 'n8n-workflow';
+import { ICredentialType, INodeProperties, IAuthenticateGeneric, ICredentialTestRequest } from 'n8n-workflow';
 export class h2oGPTeApi implements ICredentialType {
 	name = 'h2oGPTeApi';
 	displayName = 'h2oGPTe API';
@@ -24,4 +24,14 @@ export class h2oGPTeApi implements ICredentialType {
 		type: 'generic',
 		properties: { headers: { Authorization: '={{"Bearer " + $credentials.token}}' } },
 	};
+	test: ICredentialTestRequest = {
+		request: {
+			baseURL: '={{ $credentials.url.replace(new RegExp("\/+$"),"") + "/api/v1" }}',
+			headers: { 'Content-Type': 'application/json' },
+			returnFullResponse: true,
+			method: 'GET',
+			url: '/users/current/roles',
+		},
+	};
 }
+
