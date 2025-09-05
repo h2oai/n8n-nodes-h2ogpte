@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-h2ogpte",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "An n8n node to interact with H2O GPT Enterprise.",
 	"keywords": [
 		"n8n-community-node-package",
