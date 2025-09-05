@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/h2oai/n8n-nodes-h2ogpte.git"
+		"url": "https://github.com/h2oai/n8n-nodes-h2ogpte"
 	},
 	"engines": {
 		"node": ">=20.15"
